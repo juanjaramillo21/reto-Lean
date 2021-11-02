@@ -1,0 +1,68 @@
+*{
+padding: 0%;
+margin: 0%;
+
+}
+.bar{
+position: fixed;
+width: 200px;
+height: 100%;
+background: rgba(255, 166, 0, 0.527);
+
+}
+
+.bar ul li{
+color: rgba(230, 230,230, 9);
+text-align: center;
+padding:15px  10px;
+border-bottom:1 px solid rgba(100, 100, 100, .3);
+
+}
+.logo{
+    text-align: center;
+
+}
+.icone{
+    font-size: 100px;
+    text-align: center;
+    padding:15px  10px;
+    border-bottom:1 px solid rgba(100, 100, 100, .3);
+    width: 300px;
+    height: 300%;
+    cursor: pointer;
+}
+
+nav{
+
+    max-width: 900px;
+    margin: auto;
+    font-size: 20px;
+    margin-left: 250px;
+}
+.menu{
+    display: block;
+    padding: 15px 20px;
+    color: gray;
+    text-align: left;
+
+}
+.menu-ver{
+position: absolute;
+display: none;
+list-style: none;
+width: 200px;
+background-color: rgba(0, 0, 0, .5);
+}
+.menu li:hover .menu-ver{
+    display:block ;
+}
+.menu-ver li:hover{
+    background-color:black ;
+
+}
+.menu-ver li a {
+    display: block;
+    color: white;
+    pad: 15px 15px 15px 20px ;
+text-decoration: none;
+}
